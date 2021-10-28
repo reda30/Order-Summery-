@@ -1,0 +1,138 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+body{
+    background-image:url("../images/pattern-background-mobile.svg");
+    background-image:url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color:hsl(225, 100%, 94%);
+}
+.container{
+    display: block;
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    padding-bottom: 2%;
+    background-color: white;
+
+}
+
+.content{
+    background-color: white;
+
+}
+
+.header img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+ 
+}
+
+.details{
+    padding:20px;
+    
+}
+.details h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+   
+}
+.details  p {
+    text-align: center;
+    color:#C5C8CF;
+    
+}
+.plan{
+    width: 85%;
+    margin: auto;
+    background-color: #F8F9FE;
+    display: flex;
+    flex-direction: row;
+    padding: 5% 0%;
+    margin: 0 8% 8% 8%;
+    border-radius: 2%;
+}
+.plan .left{
+    float: left;
+    width:15%;
+    margin: 0 5%;
+}
+
+.plan .right{
+    float: right;
+    margin: 0 5%;
+    
+}
+.plan .center {
+    margin: 0 5%;
+}
+.plan .center p {
+   color: #C5C8CF;
+}
+.plan .right a {
+    color: hsl(245, 75%, 52%);
+    display: block;
+    font-weight: bolder;
+    margin-top: 25%;
+}
+
+
+
+.content button{
+    display: block;
+    background-color: hsl(245, 75%, 52%);
+    color:white;
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    cursor: pointer;
+    border:0;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 64%);;
+}
+.content .cancel {
+    display: block;
+    text-align: center;
+    color: #AFB7C4;
+    text-decoration: none;
+}
+@media (max-width: 767px){
+
+    
+    .container{
+       
+        width:80%;
+    
+    }
+    
+  
+ }
+
+@media (min-width: 768px) and (max-width:992px) { 
+
+    .container{
+        width:50%;
+    }
+   
+  
+    
+ }
+
+ @media (min-width:993px) and (max-width:1199px) { 
+
+    .container{
+        width: 40%;
+
+    }
+  }
+
+
